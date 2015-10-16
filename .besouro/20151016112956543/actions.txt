@@ -158,3 +158,6 @@ EditAction 1444987983719 Frame.java 1132 8 11 0
 EditAction 1444987986234 TestBowlingScoreCalculator.java 2792 11 45 11
 RefactoringAction 1444988019900 TestBowlingScoreCalculator.java ADD void testFrameScoreWhenStrike() METHOD
 EditAction 1444988051295 TestBowlingScoreCalculator.java 2951 12 48 12
+UnitTestCaseAction 1444988052423 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444988052424 TestBowlingScoreCalculator OK
+EditAction 1444988138353 TestBowlingScoreCalculator.java 2951 12 48 12

@@ -103,6 +103,6 @@ public class TestBowlingScoreCalculator {
 		bowlingGame.addFrame(new Frame(10,9));
 		bowlingGame.addFrame(new Frame(3,3));
 		int scoreOfTheGame = bowlingGame.score();
-		assertEquals(22, scoreOfTheGame);
+		assertEquals(25, scoreOfTheGame);
 	}
 }
