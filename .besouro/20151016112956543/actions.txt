@@ -270,3 +270,4 @@ UnitTestSessionAction 1444991407127 TestBowlingScoreCalculator OK
 RefactoringAction 1444991608776 Frame.java ADD Frame() METHOD
 RefactoringAction 1444991613297 Frame.java RENAME Frame()=>Frame(int) METHOD
 EditAction 1444991678277 Frame.java 1335 10 14 0
+EditAction 1444991678457 TestBowlingScoreCalculator.java 6265 17 119 17

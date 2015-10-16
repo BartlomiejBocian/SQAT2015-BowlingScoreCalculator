@@ -194,7 +194,7 @@ public class TestBowlingScoreCalculator {
 		lastframe.setLastFrame(true);
 		bowlingGame.addFrame(lastframe);
 		
-		bowlingGame.setBonus(new Frame(6,1));
+		bowlingGame.setBonus(new Frame(6));
 		int scoreOfTheGame = bowlingGame.score();
 		assertEquals(133, scoreOfTheGame);
 	}
