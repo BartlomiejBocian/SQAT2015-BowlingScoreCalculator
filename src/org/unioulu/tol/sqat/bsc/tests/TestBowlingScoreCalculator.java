@@ -44,4 +44,6 @@ public class TestBowlingScoreCalculator {
 		int frameInGame = bowlingGame.getFrames().size();
 		assertEquals(1, frameInGame);
 	}
+	
+	
 }
