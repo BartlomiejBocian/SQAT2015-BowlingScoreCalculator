@@ -175,4 +175,23 @@ public class TestBowlingScoreCalculator {
 		int scoreOfTheGame = bowlingGame.score();
 		assertEquals(29, scoreOfTheGame);
 	}
+	
+	@Test
+	public void testGameFinalCombination(){
+		BowlingGame bowlingGame = new BowlingGame();
+		bowlingGame.addFrame(new Frame(1,4));
+		bowlingGame.addFrame(new Frame(4,5));
+		bowlingGame.addFrame(new Frame(6,4));
+		bowlingGame.addFrame(new Frame(5,5));
+		bowlingGame.addFrame(new Frame(10,1));
+		bowlingGame.addFrame(new Frame(0,1));
+		bowlingGame.addFrame(new Frame(7,3));
+		bowlingGame.addFrame(new Frame(6,4));
+		bowlingGame.addFrame(new Frame(10,1));
+		bowlingGame.addFrame(new Frame(2,8));
+		
+		bowlingGame.setBonus(new Frame(6,1));
+		int scoreOfTheGame = bowlingGame.score();
+		assertEquals(133, scoreOfTheGame);
+	}
 }
