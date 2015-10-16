@@ -232,3 +232,6 @@ RefactoringAction 1444989978910 Frame.java ADD int frameScore FIELD
 RefactoringAction 1444990097644 Frame.java REMOVE frameScore FIELD
 RefactoringAction 1444990101656 Frame.java REMOVE bonusThrow(int) METHOD
 EditAction 1444990108002 Frame.java 1148 8 12 0
+RefactoringAction 1444990153823 BowlingGame.java ADD Frame getBonus() METHOD
+RefactoringAction 1444990153824 BowlingGame.java ADD void setBonus(Frame) METHOD
+EditAction 1444990643231 Frame.java 1153 8 12 0
