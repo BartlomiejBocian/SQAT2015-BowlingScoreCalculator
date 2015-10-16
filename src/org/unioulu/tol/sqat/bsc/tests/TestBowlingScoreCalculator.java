@@ -44,6 +44,13 @@ public class TestBowlingScoreCalculator {
 		assertEquals(true, strike);
 	}
 	
+	@Test
+	public void testFrameGetNoStrike(){
+		Frame frame = new Frame(1,4);
+		boolean strike = frame.isStrike();	
+		assertEquals(false, strike);
+	}
+	
 	//Bowling Game Test
 	@Test
 	public void testBowlingGameAddFrameToEmptyGame(){
