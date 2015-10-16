@@ -277,3 +277,9 @@ EditAction 1444991689959 TestBowlingScoreCalculator.java 6263 17 119 17
 UnitTestCaseAction 1444991690952 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444991690953 TestBowlingScoreCalculator OK
 EditAction 1444991751214 Frame.java 1312 10 14 0
+UnitTestCaseAction 1444991752439 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444991752440 TestBowlingScoreCalculator OK
+RefactoringAction 1444991833723 TestBowlingScoreCalculator.java ADD void testGameScoreLastFrameWithBonusExtraBall()/2 METHOD
+RefactoringAction 1444991846284 TestBowlingScoreCalculator.java RENAME testGameScoreLastFrameWithBonusExtraBall()/2=>void testGameScoreLastFrameWithBonusExtraBallSpare() METHOD
+RefactoringAction 1444991849810 TestBowlingScoreCalculator.java RENAME testGameScoreLastFrameWithBonusExtraBall()=>void testGameScoreLastFrameWithBonusExtraBallStrike() METHOD
+EditAction 1444991880724 TestBowlingScoreCalculator.java 6996 18 135 18

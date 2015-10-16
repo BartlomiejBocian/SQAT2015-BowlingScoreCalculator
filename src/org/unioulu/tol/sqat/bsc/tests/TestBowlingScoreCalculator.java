@@ -158,7 +158,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testGameScoreLastFrameWithBonusExtraBall(){
+	public void testGameScoreLastFrameWithBonusExtraBallSpare(){
 		BowlingGame bowlingGame = new BowlingGame();
 		bowlingGame.addFrame(new Frame(1,1));
 		bowlingGame.addFrame(new Frame(1,1));
@@ -170,6 +170,27 @@ public class TestBowlingScoreCalculator {
 		bowlingGame.addFrame(new Frame(1,1));
 		bowlingGame.addFrame(new Frame(1,1));
 		Frame lastframe = new Frame(1,9);
+		lastframe.setLastFrame(true);
+		bowlingGame.addFrame(lastframe);
+		
+		bowlingGame.setBonus(new Frame(1));
+		int scoreOfTheGame = bowlingGame.score();
+		assertEquals(29, scoreOfTheGame);
+	}
+	
+	@Test
+	public void testGameScoreLastFrameWithBonusExtraBallStrike(){
+		BowlingGame bowlingGame = new BowlingGame();
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		Frame lastframe = new Frame(10,0);
 		lastframe.setLastFrame(true);
 		bowlingGame.addFrame(lastframe);
 		
