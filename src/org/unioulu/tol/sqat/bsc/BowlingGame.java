@@ -11,7 +11,9 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		frames.add(frame);
+		if(frames.size() <= 10){
+			frames.add(frame);
+		}
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
