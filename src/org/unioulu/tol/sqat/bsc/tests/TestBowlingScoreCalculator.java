@@ -8,11 +8,6 @@ import org.unioulu.tol.sqat.bsc.Frame;
 public class TestBowlingScoreCalculator {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-
-	@Test
 	public void testTheScoreOfSixandFourGaveSpare(){
 		Frame frame = new Frame(6,4);
 		
