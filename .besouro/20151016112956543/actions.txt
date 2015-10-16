@@ -38,3 +38,20 @@ RefactoringAction 1444985035953 TestBowlingScoreCalculator.java RENAME testTheSc
 RefactoringAction 1444985037466 TestBowlingScoreCalculator.java RENAME testTheScoreOfOneAndFourGaveSpare=>void testTheScoreOfOneAndFourGaveSpare() METHOD
 EditAction 1444985167369 Frame.java 843 6 7 0
 EditAction 1444985167546 TestBowlingScoreCalculator.java 538 2 6 2
+UnitTestCaseAction 1444985168747 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444985168748 TestBowlingScoreCalculator OK
+RefactoringAction 1444985224333 TestBowlingScoreCalculator.java RENAME testTheScoreOfSixandFourGaveSpare()=>void testFrameOfSixandFourGaveSpare() METHOD
+RefactoringAction 1444985230849 TestBowlingScoreCalculator.java RENAME testTheScoreOfOneAndFourGaveSpare()=>void testFrameOfOneAndFourGaveSpare() METHOD
+RefactoringAction 1444985253927 TestBowlingScoreCalculator.java ADD void testFrameScoreCalculaiting() METHOD
+RefactoringAction 1444985288031 TestBowlingScoreCalculator.java ADD void createNewFrame() METHOD
+RefactoringAction 1444985293061 TestBowlingScoreCalculator.java RENAME createNewFrame()=>void createNewFrame(int) METHOD
+RefactoringAction 1444985297076 TestBowlingScoreCalculator.java RENAME createNewFrame(int)=>void createNewFrame(int, int) METHOD
+RefactoringAction 1444985313618 TestBowlingScoreCalculator.java REMOVE createNewFrame(int, int) METHOD
+RefactoringAction 1444985335158 TestBowlingScoreCalculator.java RENAME testFrameScoreCalculaiting()=>void testFrameScoreCalculaitingFour() METHOD
+RefactoringAction 1444985336672 TestBowlingScoreCalculator.java RENAME testFrameScoreCalculaitingFour()=>void testFrameScoreCalculaitingFourAnd() METHOD
+RefactoringAction 1444985338187 TestBowlingScoreCalculator.java RENAME testFrameScoreCalculaitingFourAnd()=>void testFrameScoreCalculaitingFourAndFi() METHOD
+RefactoringAction 1444985339201 TestBowlingScoreCalculator.java RENAME testFrameScoreCalculaitingFourAndFi()=>void testFrameScoreCalculaitingFourAndFife() METHOD
+RefactoringAction 1444985342215 TestBowlingScoreCalculator.java RENAME testFrameScoreCalculaitingFourAndFife()=>void testFrameScoreCalculaitingFourAndFifeGave() METHOD
+RefactoringAction 1444985346232 TestBowlingScoreCalculator.java RENAME testFrameScoreCalculaitingFourAndFifeGave()=>void testFrameScoreCalculaitingFourAndFifeGave FIELD
+RefactoringAction 1444985350261 TestBowlingScoreCalculator.java RENAME testFrameScoreCalculaitingFourAndFifeGave9()=>void testFrameScoreCalculaitingFourAndFifeGaveNine() METHOD
+EditAction 1444985405841 TestBowlingScoreCalculator.java 718 3 9 3
