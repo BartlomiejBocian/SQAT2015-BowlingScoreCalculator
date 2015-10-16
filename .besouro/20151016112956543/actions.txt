@@ -235,3 +235,4 @@ EditAction 1444990108002 Frame.java 1148 8 12 0
 RefactoringAction 1444990153823 BowlingGame.java ADD Frame getBonus() METHOD
 RefactoringAction 1444990153824 BowlingGame.java ADD void setBonus(Frame) METHOD
 EditAction 1444990643231 Frame.java 1153 8 12 0
+EditAction 1444990643596 TestBowlingScoreCalculator.java 5487 16 101 16
