@@ -24,3 +24,16 @@ EditAction 1444984957742 TestBowlingScoreCalculator.java 364 1 3 1
 UnitTestCaseAction 1444984958737 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444984958737 TestBowlingScoreCalculator FAIL
 EditAction 1444984977740 Frame.java 793 6 7 0
+UnitTestCaseAction 1444984980076 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444984980076 TestBowlingScoreCalculator OK
+RefactoringAction 1444985015839 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444985020864 TestBowlingScoreCalculator.java RENAME test=>void testTheScore FIELD
+RefactoringAction 1444985022377 TestBowlingScoreCalculator.java RENAME testTheScore=>void testTheScoreOf FIELD
+RefactoringAction 1444985025390 TestBowlingScoreCalculator.java RENAME testTheScoreOf=>void testTheScoreOfOne FIELD
+RefactoringAction 1444985027903 TestBowlingScoreCalculator.java RENAME testTheScoreOfOne=>void testTheScoreOfOneAns FIELD
+RefactoringAction 1444985028914 TestBowlingScoreCalculator.java RENAME testTheScoreOfOneAns=>void testTheScoreOfOneAnd FIELD
+RefactoringAction 1444985031426 TestBowlingScoreCalculator.java RENAME testTheScoreOfOneAnd=>void testTheScoreOfOneAndFour FIELD
+RefactoringAction 1444985033940 TestBowlingScoreCalculator.java RENAME testTheScoreOfOneAndFour=>void testTheScoreOfOneAndFourGave FIELD
+RefactoringAction 1444985035953 TestBowlingScoreCalculator.java RENAME testTheScoreOfOneAndFourGave=>void testTheScoreOfOneAndFourGaveSpare FIELD
+RefactoringAction 1444985037466 TestBowlingScoreCalculator.java RENAME testTheScoreOfOneAndFourGaveSpare=>void testTheScoreOfOneAndFourGaveSpare() METHOD
+EditAction 1444985167369 Frame.java 843 6 7 0
