@@ -95,3 +95,12 @@ UnitTestCaseAction 1444986092413 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444986092413 TestBowlingScoreCalculator OK
 EditAction 1444986238134 TestBowlingScoreCalculator.java 1192 5 17 5
 EditAction 1444986238341 BowlingGame.java 756 7 5 0
+UnitTestCaseAction 1444986239407 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444986239407 TestBowlingScoreCalculator OK
+RefactoringAction 1444986328482 TestBowlingScoreCalculator.java ADD void testFrameGetStrike() METHOD
+RefactoringAction 1444986359117 TestBowlingScoreCalculator.java RENAME testFrameGetStrike()=>void testFrameGetWhenStrike() METHOD
+RefactoringAction 1444986378632 TestBowlingScoreCalculator.java RENAME testFrameGetWhenStrike()=>void testFrameGetWhenTenStrike() METHOD
+RefactoringAction 1444986380142 TestBowlingScoreCalculator.java RENAME testFrameGetWhenTenStrike()=>void testFrameGetWhenTenOnStrike() METHOD
+RefactoringAction 1444986383161 TestBowlingScoreCalculator.java RENAME testFrameGetWhenTenOnStrike()=>void testFrameGetWhenTenOnFirtsStrike() METHOD
+RefactoringAction 1444986386182 TestBowlingScoreCalculator.java RENAME testFrameGetWhenTenOnFirtsStrike()=>void testFrameGetWhenTenOnFirtsThrowStrike() METHOD
+EditAction 1444986425953 Frame.java 916 6 9 0
