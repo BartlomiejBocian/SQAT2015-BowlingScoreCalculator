@@ -1,6 +1,7 @@
 package org.unioulu.tol.sqat.bsc;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class BowlingGame {
@@ -22,8 +23,12 @@ public class BowlingGame {
 	
 	public int score(){
 		int score = 0;
-		for (Frame frame : frames) {
-			score += frame.score();
+		
+		for (int i = 0; i < frames.size(); i++) {
+			if (frames.get(i).isSpare()){
+				score += frames.get(i + 1).getFirstThrow();
+			}
+			score += frames.get(i).score();
 		}
 		return score;
 	}
@@ -36,9 +41,4 @@ public class BowlingGame {
 	public List<Frame> getFrames() {
 		return frames;
 	}
-
-	public void setFrames(List<Frame> frames) {
-		this.frames = frames;
-	}
-	
 }

@@ -12,7 +12,11 @@ public class Frame {
 	//the score of a single frame
 	public int score(){
 		int frameScore = 0;
-		frameScore = firstThrow + secondThrow;
+		if(isStrike()){
+			frameScore = 10;
+		}else{
+			frameScore = firstThrow + secondThrow;
+		}
 		//to be implemented
 		return frameScore;
 	}

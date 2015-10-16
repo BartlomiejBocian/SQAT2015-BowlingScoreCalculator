@@ -150,3 +150,8 @@ RefactoringAction 1444987408103 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444987603235 BowlingGame.java REMOVE setFrames(List<Frame>) METHOD
 RefactoringAction 1444987681443 BowlingGame.java ADD import java.util.Iterator IMPORT
 EditAction 1444987858424 TestBowlingScoreCalculator.java 2471 10 39 10
+UnitTestCaseAction 1444987860381 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444987860381 TestBowlingScoreCalculator OK
+RefactoringAction 1444987883439 TestBowlingScoreCalculator.java ADD void testScoreFromThreeFramesWithSpare()/2 METHOD
+RefactoringAction 1444987897464 TestBowlingScoreCalculator.java RENAME testScoreFromThreeFramesWithSpare()/2=>void testScoreFromThreeFramesWithStrike() METHOD
+EditAction 1444987983719 Frame.java 1132 8 11 0
