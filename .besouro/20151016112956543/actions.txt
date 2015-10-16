@@ -86,3 +86,5 @@ RefactoringAction 1444985881326 TestBowlingScoreCalculator.java RENAME testBowli
 RefactoringAction 1444986013386 BowlingGame.java ADD List<Frame> getFrames() METHOD
 RefactoringAction 1444986013386 BowlingGame.java ADD void setFrames(List<Frame>) METHOD
 EditAction 1444986040977 TestBowlingScoreCalculator.java 1186 5 17 5
+CompilationAction 1444986041097 TestBowlingScoreCalculator.java
+EditAction 1444986041156 BowlingGame.java 723 7 4 0

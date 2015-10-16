@@ -27,4 +27,13 @@ public class BowlingGame {
 		//to be implemented
 		return false;
 	}
+
+	public List<Frame> getFrames() {
+		return frames;
+	}
+
+	public void setFrames(List<Frame> frames) {
+		this.frames = frames;
+	}
+	
 }
