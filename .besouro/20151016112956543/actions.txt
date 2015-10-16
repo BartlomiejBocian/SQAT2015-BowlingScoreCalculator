@@ -260,3 +260,4 @@ RefactoringAction 1444991151388 Frame.java ADD void setLastFrame(boolean) METHOD
 RefactoringAction 1444991314465 Frame.java REMOVE getFirstThrow() METHOD
 RefactoringAction 1444991357998 Frame.java ADD int getFirstThrow() METHOD
 EditAction 1444991374665 Frame.java 1273 9 13 0
+EditAction 1444991374838 TestBowlingScoreCalculator.java 6202 17 117 17
