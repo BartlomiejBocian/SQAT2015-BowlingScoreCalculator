@@ -10,6 +10,10 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	public Frame(int bonus){
+		this.firstThrow = bonus;
+	}
+	
 	//the score of a single frame
 	public int score(){
 		int frameScore = 0;
