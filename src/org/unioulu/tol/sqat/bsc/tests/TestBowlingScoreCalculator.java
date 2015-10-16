@@ -79,5 +79,13 @@ public class TestBowlingScoreCalculator {
 		assertEquals(14, scoreOfTheGame);
 	}
 	
-	
+	@Test
+	public void testScoreFromThreeFramesWithSpare(){
+		BowlingGame bowlingGame = new BowlingGame();
+		bowlingGame.addFrame(new Frame(1,2));
+		bowlingGame.addFrame(new Frame(9,1));
+		bowlingGame.addFrame(new Frame(3,3));
+		int scoreOfTheGame = bowlingGame.score();
+		assertEquals(22, scoreOfTheGame);
+	}
 }
