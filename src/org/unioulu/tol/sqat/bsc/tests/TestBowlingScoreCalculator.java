@@ -72,5 +72,18 @@ public class TestBowlingScoreCalculator {
 		assertEquals(8, scoreOfTheGame);
 	}
 	
+	@Test
+	public void testScoreFromThreeFramesWithoutStrikeOrSpare(){
+		Frame frame1 = new Frame(1,2);
+		Frame frame2 = new Frame(3,2);
+		Frame frame3 = new Frame(3,3);
+		BowlingGame bowlingGame = new BowlingGame();
+		bowlingGame.addFrame(frame1);
+		bowlingGame.addFrame(frame2);
+		bowlingGame.addFrame(frame3);
+		int scoreOfTheGame = bowlingGame.score();
+		assertEquals(14, scoreOfTheGame);
+	}
+	
 	
 }
