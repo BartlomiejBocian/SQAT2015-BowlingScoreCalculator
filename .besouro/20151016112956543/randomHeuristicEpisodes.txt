@@ -24,3 +24,5 @@
 1444991752440 refactoring 2A 1 true
 1444991881983 test-addition 1 48 true
 1444991909097 regression 1 1 true
+1444991935869 regression 1 2 false
+1444992072236 regression 1 0 true
