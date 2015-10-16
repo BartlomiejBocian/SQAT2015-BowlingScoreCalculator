@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 import java.util.ArrayList;
 import java.util.List;
 
+//finished at 13:41
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
