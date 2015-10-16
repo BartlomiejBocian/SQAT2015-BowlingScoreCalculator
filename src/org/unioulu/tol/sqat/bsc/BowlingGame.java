@@ -24,10 +24,10 @@ public class BowlingGame {
 		int score = 0;
 		
 		for (int i = 0; i < frames.size(); i++) {
-			if (frames.get(i).isSpare() && i != 10){
+			if (frames.get(i).isSpare() && i != 9){
 				score += frames.get(i + 1).getFirstThrow();
 			}
-			if (frames.get(i).isStrike() && i != 10){
+			if (frames.get(i).isStrike() && i != 9){
 				score += frames.get(i + 1).getFirstThrow() + frames.get(i + 1).getSecondThrow();
 			}
 			score += frames.get(i).score();
