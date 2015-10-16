@@ -177,7 +177,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testGameFinalCombination(){
+	public void testGameFinalGivenCombination(){
 		BowlingGame bowlingGame = new BowlingGame();
 		bowlingGame.addFrame(new Frame(1,4));
 		bowlingGame.addFrame(new Frame(4,5));

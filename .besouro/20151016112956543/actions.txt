@@ -250,3 +250,7 @@ RefactoringAction 1444990790865 TestBowlingScoreCalculator.java RENAME testGameF
 RefactoringAction 1444990794396 TestBowlingScoreCalculator.java RENAME testGameFinalCo=>void testGameFinalCombination FIELD
 RefactoringAction 1444990796927 TestBowlingScoreCalculator.java RENAME testGameFinalCombination=>void testGameFinalCombination() METHOD
 EditAction 1444990874888 TestBowlingScoreCalculator.java 6132 17 115 17
+UnitTestCaseAction 1444990876196 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444990876197 TestBowlingScoreCalculator OK
+RefactoringAction 1444990891275 TestBowlingScoreCalculator.java RENAME testGameFinalCombination()=>void testGameFinalGivenCombination() METHOD
+EditAction 1444990894454 TestBowlingScoreCalculator.java 6137 17 115 17
