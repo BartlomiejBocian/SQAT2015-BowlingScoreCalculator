@@ -60,7 +60,7 @@ public class TestBowlingScoreCalculator {
 	
 	//Bowling Game Test
 	@Test
-	public void testBowlingGameAddFrameToEmptyGame(){
+	public void testGameAddFrameToEmptyGame(){
 		BowlingGame bowlingGame = new BowlingGame();
 		bowlingGame.addFrame(new Frame(1,2));
 		int frameInGame = bowlingGame.getFrames().size();
@@ -68,7 +68,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testScoreFromTwoFramesWithoutStrikeOrSpare(){
+	public void testGameFromTwoFramesWithoutStrikeOrSpare(){
 		BowlingGame bowlingGame = new BowlingGame();
 		bowlingGame.addFrame( new Frame(1,2));
 		bowlingGame.addFrame(new Frame(3,2));
@@ -77,7 +77,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testScoreFromThreeFramesWithoutStrikeOrSpare(){
+	public void testGameScoreFromThreeFramesWithoutStrikeOrSpare(){
 		BowlingGame bowlingGame = new BowlingGame();
 		bowlingGame.addFrame(new Frame(1,2));
 		bowlingGame.addFrame(new Frame(3,2));
@@ -87,7 +87,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testScoreFromThreeFramesWithSpare(){
+	public void testGameScoreFromThreeFramesWithSpare(){
 		BowlingGame bowlingGame = new BowlingGame();
 		bowlingGame.addFrame(new Frame(1,2));
 		bowlingGame.addFrame(new Frame(9,1));
@@ -97,12 +97,29 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testScoreFromThreeFramesWithStrike(){
+	public void testGameScoreFromThreeFramesWithStrike(){
 		BowlingGame bowlingGame = new BowlingGame();
 		bowlingGame.addFrame(new Frame(1,2));
 		bowlingGame.addFrame(new Frame(10,9));
 		bowlingGame.addFrame(new Frame(3,3));
 		int scoreOfTheGame = bowlingGame.score();
 		assertEquals(25, scoreOfTheGame);
+	}
+	
+	@Test
+	public void testGameLastFrameWithOutBonusOrStrikeAndSpare(){
+		BowlingGame bowlingGame = new BowlingGame();
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		int scoreOfTheGame = bowlingGame.score();
+		assertEquals(20, scoreOfTheGame);
 	}
 }
