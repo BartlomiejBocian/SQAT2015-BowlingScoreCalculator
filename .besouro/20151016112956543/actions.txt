@@ -88,3 +88,6 @@ RefactoringAction 1444986013386 BowlingGame.java ADD void setFrames(List<Frame>)
 EditAction 1444986040977 TestBowlingScoreCalculator.java 1186 5 17 5
 CompilationAction 1444986041097 TestBowlingScoreCalculator.java
 EditAction 1444986041156 BowlingGame.java 723 7 4 0
+UnitTestCaseAction 1444986042387 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444986042388 TestBowlingScoreCalculator FAIL
+EditAction 1444986091249 BowlingGame.java 722 7 5 0
