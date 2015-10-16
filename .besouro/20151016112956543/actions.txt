@@ -219,3 +219,4 @@ UnitTestSessionAction 1444989477249 TestBowlingScoreCalculator OK
 RefactoringAction 1444989488514 TestBowlingScoreCalculator.java ADD void testGameLastFrameWithBonusExtraBall()/2 METHOD
 RefactoringAction 1444989502538 TestBowlingScoreCalculator.java RENAME testGameLastFrameWithBonusExtraBall()/2=>void testGameLastFrameWithOutBonusExtraBall() METHOD
 EditAction 1444989741532 TestBowlingScoreCalculator.java 4829 15 87 15
+EditAction 1444989742308 BowlingGame.java 1084 6 6 0
