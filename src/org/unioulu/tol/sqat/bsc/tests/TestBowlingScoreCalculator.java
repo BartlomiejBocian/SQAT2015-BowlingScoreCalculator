@@ -169,7 +169,9 @@ public class TestBowlingScoreCalculator {
 		bowlingGame.addFrame(new Frame(1,1));
 		bowlingGame.addFrame(new Frame(1,1));
 		bowlingGame.addFrame(new Frame(1,1));
-		bowlingGame.addFrame(new Frame(1,9));
+		Frame lastframe = new Frame(1,9);
+		lastframe.setLastFrame(true);
+		bowlingGame.addFrame(lastframe);
 		
 		bowlingGame.setBonus(new Frame(1,1));
 		int scoreOfTheGame = bowlingGame.score();
