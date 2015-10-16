@@ -220,3 +220,15 @@ RefactoringAction 1444989488514 TestBowlingScoreCalculator.java ADD void testGam
 RefactoringAction 1444989502538 TestBowlingScoreCalculator.java RENAME testGameLastFrameWithBonusExtraBall()/2=>void testGameLastFrameWithOutBonusExtraBall() METHOD
 EditAction 1444989741532 TestBowlingScoreCalculator.java 4829 15 87 15
 EditAction 1444989742308 BowlingGame.java 1084 6 6 0
+UnitTestCaseAction 1444989743391 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444989743392 TestBowlingScoreCalculator OK
+RefactoringAction 1444989797999 TestBowlingScoreCalculator.java ADD void testGameLastFrameWithOutBonusExtraBall()/2 METHOD
+RefactoringAction 1444989804024 TestBowlingScoreCalculator.java RENAME testGameLastFrameWithOutBonusExtraBall()/2=>void testGameLastFrameWithBonusExtraBall()/2 METHOD
+RefactoringAction 1444989809052 TestBowlingScoreCalculator.java RENAME testGameLastFrameWithBonusExtraBall()/2=>void testGameScoreLastFrameWithBonusExtraBall() METHOD
+RefactoringAction 1444989902702 Frame.java ADD void bonusThrow FIELD
+RefactoringAction 1444989905213 Frame.java RENAME bonusThrow=>void bonusThrow() METHOD
+RefactoringAction 1444989908734 Frame.java RENAME bonusThrow()=>void bonusThrow(int) METHOD
+RefactoringAction 1444989978910 Frame.java ADD int frameScore FIELD
+RefactoringAction 1444990097644 Frame.java REMOVE frameScore FIELD
+RefactoringAction 1444990101656 Frame.java REMOVE bonusThrow(int) METHOD
+EditAction 1444990108002 Frame.java 1148 8 12 0
