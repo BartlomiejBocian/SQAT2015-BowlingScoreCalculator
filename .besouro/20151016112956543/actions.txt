@@ -104,3 +104,4 @@ RefactoringAction 1444986380142 TestBowlingScoreCalculator.java RENAME testFrame
 RefactoringAction 1444986383161 TestBowlingScoreCalculator.java RENAME testFrameGetWhenTenOnStrike()=>void testFrameGetWhenTenOnFirtsStrike() METHOD
 RefactoringAction 1444986386182 TestBowlingScoreCalculator.java RENAME testFrameGetWhenTenOnFirtsStrike()=>void testFrameGetWhenTenOnFirtsThrowStrike() METHOD
 EditAction 1444986425953 Frame.java 916 6 9 0
+EditAction 1444986426144 TestBowlingScoreCalculator.java 1408 6 20 6

@@ -8,6 +8,7 @@ import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
 
+	//Frame Game Test
 	@Test
 	public void testFrameScoreCalculaitingFourAndFifeGaveNine(){
 		Frame frame = new Frame(4,5);
@@ -36,6 +37,14 @@ public class TestBowlingScoreCalculator {
 		assertEquals(false, spare);
 	}
 	
+	@Test
+	public void testFrameGetWhenTenOnFirtsThrowStrike(){
+		Frame frame = new Frame(10,4);
+		boolean strike = frame.isStrike();	
+		assertEquals(true, strike);
+	}
+	
+	//Bowling Game Test
 	@Test
 	public void testBowlingGameAddFrameToEmptyGame(){
 		Frame frame = new Frame(1,2);
