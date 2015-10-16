@@ -131,3 +131,6 @@ UnitTestSessionAction 1444986810527 TestBowlingScoreCalculator OK
 RefactoringAction 1444986834406 TestBowlingScoreCalculator.java ADD void testScoreFromTwoFramesWithoutStrikeOrSpare()/2 METHOD
 RefactoringAction 1444986843928 TestBowlingScoreCalculator.java RENAME testScoreFromTwoFramesWithoutStrikeOrSpare()/2=>void testScoreFromThreeFramesWithoutStrikeOrSpare() METHOD
 EditAction 1444986886970 TestBowlingScoreCalculator.java 2311 9 39 9
+UnitTestCaseAction 1444986888127 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444986888127 TestBowlingScoreCalculator FAIL
+EditAction 1444986973873 BowlingGame.java 820 7 7 0
