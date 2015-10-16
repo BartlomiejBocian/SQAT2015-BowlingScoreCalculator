@@ -24,7 +24,7 @@ public class Frame {
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
 		//to be implemented
-		return false;
+		return true;
 	}
 
 	//return whether this is the last frame of the match
