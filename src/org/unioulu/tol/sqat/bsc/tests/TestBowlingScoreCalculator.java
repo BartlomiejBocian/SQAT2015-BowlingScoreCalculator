@@ -139,4 +139,21 @@ public class TestBowlingScoreCalculator {
 		boolean nextFrameBonus = bowlingGame.isNextFrameBonus();	
 		assertEquals(true, nextFrameBonus);
 	}
+	
+	@Test
+	public void testGameLastFrameWithOutBonusExtraBall(){
+		BowlingGame bowlingGame = new BowlingGame();
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		bowlingGame.addFrame(new Frame(1,1));
+		boolean nextFrameBonus = bowlingGame.isNextFrameBonus();	
+		assertEquals(false, nextFrameBonus);
+	}
 }
