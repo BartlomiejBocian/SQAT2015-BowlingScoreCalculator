@@ -190,7 +190,7 @@ public class TestBowlingScoreCalculator {
 		bowlingGame.addFrame(new Frame(1,1));
 		bowlingGame.addFrame(new Frame(1,1));
 		bowlingGame.addFrame(new Frame(1,1));
-		Frame lastframe = new Frame(0,10);
+		Frame lastframe = new Frame(10,0);
 		lastframe.setLastFrame(true);
 		bowlingGame.addFrame(lastframe);
 		
