@@ -15,4 +15,13 @@ public class TestBowlingScoreCalculator {
 		
 		assertEquals(true, spare);
 	}
+	
+	@Test
+	public void testTheScoreOfOneAndFourGaveSpare(){
+		Frame frame = new Frame(1,4);
+		
+		boolean spare = frame.isSpare();
+		
+		assertEquals(false, spare);
+	}
 }

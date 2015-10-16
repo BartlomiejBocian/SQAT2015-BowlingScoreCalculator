@@ -37,3 +37,4 @@ RefactoringAction 1444985033940 TestBowlingScoreCalculator.java RENAME testTheSc
 RefactoringAction 1444985035953 TestBowlingScoreCalculator.java RENAME testTheScoreOfOneAndFourGave=>void testTheScoreOfOneAndFourGaveSpare FIELD
 RefactoringAction 1444985037466 TestBowlingScoreCalculator.java RENAME testTheScoreOfOneAndFourGaveSpare=>void testTheScoreOfOneAndFourGaveSpare() METHOD
 EditAction 1444985167369 Frame.java 843 6 7 0
+EditAction 1444985167546 TestBowlingScoreCalculator.java 538 2 6 2
