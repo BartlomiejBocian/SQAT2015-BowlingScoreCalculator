@@ -17,6 +17,15 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void testFrameScoreCalculaitingSevenAndOneGaveEight(){
+		Frame frame = new Frame(7,1);
+		
+		int frameScore = frame.score();
+		
+		assertEquals(8, frameScore);
+	}
+	
+	@Test
 	public void testFrameOfSixandFourGaveSpare(){
 		Frame frame = new Frame(6,4);
 		
