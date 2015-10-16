@@ -254,3 +254,9 @@ UnitTestCaseAction 1444990876196 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444990876197 TestBowlingScoreCalculator OK
 RefactoringAction 1444990891275 TestBowlingScoreCalculator.java RENAME testGameFinalCombination()=>void testGameFinalGivenCombination() METHOD
 EditAction 1444990894454 TestBowlingScoreCalculator.java 6137 17 115 17
+RefactoringAction 1444991088767 Frame.java ADD boolen last FIELD
+RefactoringAction 1444991090778 Frame.java RENAME last=>boolen lastFrame FIELD
+RefactoringAction 1444991151388 Frame.java ADD void setLastFrame(boolean) METHOD
+RefactoringAction 1444991314465 Frame.java REMOVE getFirstThrow() METHOD
+RefactoringAction 1444991357998 Frame.java ADD int getFirstThrow() METHOD
+EditAction 1444991374665 Frame.java 1273 9 13 0
