@@ -210,3 +210,6 @@ RefactoringAction 1444989276424 TestBowlingScoreCalculator.java RENAME testGameL
 RefactoringAction 1444989279451 TestBowlingScoreCalculator.java RENAME testGameLastFrameWithBonusExtraBallStrike()=>void testGameLastFrameWithBonusExtraBall() METHOD
 EditAction 1444989443146 Frame.java 1152 8 12 0
 EditAction 1444989443335 TestBowlingScoreCalculator.java 4199 14 74 14
+UnitTestCaseAction 1444989445114 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444989445115 TestBowlingScoreCalculator FAIL
+EditAction 1444989475283 Frame.java 1153 8 12 0
