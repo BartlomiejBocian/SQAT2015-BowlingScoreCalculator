@@ -88,4 +88,14 @@ public class TestBowlingScoreCalculator {
 		int scoreOfTheGame = bowlingGame.score();
 		assertEquals(22, scoreOfTheGame);
 	}
+	
+	@Test
+	public void testScoreFromThreeFramesWithStrike(){
+		BowlingGame bowlingGame = new BowlingGame();
+		bowlingGame.addFrame(new Frame(1,2));
+		bowlingGame.addFrame(new Frame(10,9));
+		bowlingGame.addFrame(new Frame(3,3));
+		int scoreOfTheGame = bowlingGame.score();
+		assertEquals(22, scoreOfTheGame);
+	}
 }
