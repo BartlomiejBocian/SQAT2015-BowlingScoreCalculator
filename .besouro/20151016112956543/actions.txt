@@ -156,3 +156,5 @@ RefactoringAction 1444987883439 TestBowlingScoreCalculator.java ADD void testSco
 RefactoringAction 1444987897464 TestBowlingScoreCalculator.java RENAME testScoreFromThreeFramesWithSpare()/2=>void testScoreFromThreeFramesWithStrike() METHOD
 EditAction 1444987983719 Frame.java 1132 8 11 0
 EditAction 1444987986234 TestBowlingScoreCalculator.java 2792 11 45 11
+RefactoringAction 1444988019900 TestBowlingScoreCalculator.java ADD void testFrameScoreWhenStrike() METHOD
+EditAction 1444988051295 TestBowlingScoreCalculator.java 2951 12 48 12

@@ -51,6 +51,13 @@ public class TestBowlingScoreCalculator {
 		assertEquals(false, strike);
 	}
 	
+	@Test
+	public void testFrameScoreWhenStrike(){
+		Frame frame = new Frame(10,4);
+		int frameScore = frame.score();
+		assertEquals(10, frameScore);
+	}
+	
 	//Bowling Game Test
 	@Test
 	public void testBowlingGameAddFrameToEmptyGame(){
